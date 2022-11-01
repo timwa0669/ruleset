@@ -1,0 +1,3 @@
+# Minecraft services limits api requests.
+DOMAIN-SUFFIX,api.minecraftservices.com
+DOMAIN-SUFFIX,authserver.mojang.com
