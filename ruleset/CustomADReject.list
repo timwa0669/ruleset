@@ -1,3 +1,4 @@
+# Tencent
 DOMAIN,ts.qq.com
 DOMAIN,wup.imtt.qq.com
 DOMAIN,vv.video.qq.com
@@ -20,3 +21,6 @@ IP-CIDR,112.29.94.28/32,no-resolve
 IP-CIDR,117.185.24.50/32,no-resolve
 IP-CIDR,43.137.23.177/32,no-resolve
 IP-CIDR,36.155.213.182/32,no-resolve
+
+# iqihang
+DOMAIN-SUFFIX,bjmantis.net
