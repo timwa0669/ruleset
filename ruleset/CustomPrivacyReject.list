@@ -12,4 +12,6 @@ DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,hm.baidu.com
 
 # Manhuaren
+DOMAIN,tnc3-alisc1.zijieapi.com
+DOMAIN,ulogs.umengcloud.com
 IP-CIDR,3.0.183.141/32,no-resolve
