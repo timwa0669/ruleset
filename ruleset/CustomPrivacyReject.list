@@ -1,7 +1,15 @@
+# Google
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,hm.baidu.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googlesyndication.com
+
+# Doubleclick
 DOMAIN-SUFFIX,doubleclick.net
+
+# Baidu
+DOMAIN-SUFFIX,hm.baidu.com
+
+# Manhuaren
+IP-CIDR,3.0.183.141/32,no-resolve
