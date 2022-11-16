@@ -11,7 +11,12 @@ DOMAIN-SUFFIX,doubleclick.net
 # Baidu
 DOMAIN-SUFFIX,hm.baidu.com
 
-# Manhuaren
-DOMAIN,tnc3-alisc1.zijieapi.com
+# Other
+DOMAIN-KEYWORD,tnc*-ali*.zijieapi.com
+DOMAIN-KEYWORD,tnc*-ali*.isnssdk.com
 DOMAIN,ulogs.umengcloud.com
+DOMAIN,errlog.umeng.com
+DOMAIN,graph.facebook.com
 IP-CIDR,3.0.183.141/32,no-resolve
+IP-CIDR,223.109.208.103/32,no-resolve
+IP-CIDR,43.137.29.205/32,no-resolve
