@@ -1,8 +1,8 @@
 DOMAIN-KEYWORD,smtp
 DOMAIN-KEYWORD,imap
-DOMAIN-SUFFIX,mail.me.com
-DOMAIN-SUFFIX,imap-mail.outlook.com
-DOMAIN-SUFFIX,smtp-mail.outlook.com
-DOMAIN-SUFFIX,m.hotmail.com
-DOMAIN-SUFFIX,eas.outlook.com
-DOMAIN-SUFFIX,outlook.office365.com
+DOMAIN,mail.me.com
+DOMAIN,imap-mail.outlook.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,m.hotmail.com
+DOMAIN,eas.outlook.com
+DOMAIN,outlook.office365.com

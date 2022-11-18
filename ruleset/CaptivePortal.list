@@ -1,2 +1,5 @@
-DOMAIN-SUFFIX,securelogin.arubanetworks.com
-DOMAIN-SUFFIX,wifi.ccrgt.com
+# 掌上高铁
+DOMAIN,wifi.ccrgt.com
+
+# Others
+DOMAIN,securelogin.arubanetworks.com
