@@ -17,6 +17,12 @@ DOMAIN-SUFFIX,isnssdk.com
 DOMAIN,ulogs.umengcloud.com
 DOMAIN,errlog.umeng.com
 DOMAIN,graph.facebook.com
+DOMAIN-SUFFIX,suibyumimg.com
+DOMAIN-KEYWORD,.tk
 IP-CIDR,3.0.183.141/32,no-resolve
 IP-CIDR,223.109.208.103/32,no-resolve
 IP-CIDR,43.137.29.205/32,no-resolve
+
+# Manhuaren
+DOMAIN,bi-manhuaren.com
+DOMAIN-SUFFIX,applovefrom.com

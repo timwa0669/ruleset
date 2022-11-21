@@ -26,3 +26,11 @@ IP-CIDR,101.226.211.106/32,no-resolve
 
 # iqihang
 DOMAIN-SUFFIX,bjmantis.net
+
+# bytedance
+DOMAIN-SUFFIX,i18n-pglstatp.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,pangle.io
+
+# Manhuaren
+DOMAIN,adlog.manhuaren.com
