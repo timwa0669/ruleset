@@ -1,0 +1,4 @@
+hostname = mangaapi.manhuaren.com
+
+# > Manhuaren
+^https?://mangaapi\.manhuaren\.com/v\d/ad/ url reject
