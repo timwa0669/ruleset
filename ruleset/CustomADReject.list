@@ -15,6 +15,7 @@ DOMAIN,dns.weixin.qq.com.cn
 DOMAIN,punch.p2p.qq.com
 DOMAIN,soup.v.qq.com
 DOMAIN,sdkconfig.video.qq.com
+DOMAIN,q.qlogo.cn
 IP-CIDR,183.192.195.42/32,no-resolve
 IP-CIDR,221.181.97.254/32,no-resolve
 IP-CIDR,112.29.94.28/32,no-resolve
