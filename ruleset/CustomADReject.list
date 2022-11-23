@@ -18,6 +18,7 @@ DOMAIN,sdkconfig.video.qq.com
 DOMAIN,q.qlogo.cn
 DOMAIN,bsrv.qq.com
 DOMAIN,expeva.store.qq.com
+DOMAIN,mazu.m.qq.com
 IP-CIDR,183.192.195.42/32,no-resolve
 IP-CIDR,221.181.97.254/32,no-resolve
 IP-CIDR,112.29.94.28/32,no-resolve
