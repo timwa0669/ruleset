@@ -11,9 +11,14 @@ AND,((PROTOCOL,UDP),(DEST-PORT,443),(DOMAIN, youtubei.googleapis.com)),REJECT-NO
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
 
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/(www\.|s\.|m\.)?youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www\.|s\.|m\.)?youtube\.com\/(pagead|ptracking) - reject
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
 
+[Header Rewrite]
+^https?:\/\/(www\.|s\.|m\.)?youtube\.com header-replace User-Agent Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.101 Mobile/15E148 Safari/604.1
+^https?:\/\/[\w-]+\.googlevideo\.com header-replace User-Agent Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.101 Mobile/15E148 Safari/604.1
+^https?:\/\/youtubei\.googleapis\.com header-replace User-Agent Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.101 Mobile/15E148 Safari/604.1
+
 [MITM]
-hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,youtube.com,m.youtube.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com

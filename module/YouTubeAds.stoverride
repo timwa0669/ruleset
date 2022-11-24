@@ -1,0 +1,24 @@
+name: YouTubeAds
+desc: Stash版 https://github.com/sve1r/Rules-For-Quantumult-X/tree/develop/Rewrite/AdBlock/Youtube.conf ，添加iPad的UA确保去广告效果
+
+
+http:
+  mitm:
+    - "googlevideo.com"
+    - "*.googlevideo.com"
+    - "youtube.com"
+    - "www.youtube.com"
+    - "s.youtube.com"
+    - "m.youtube.com"
+    - "youtubei.googleapis.com"
+  url-rewrite:
+    - (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
+    - ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
+    - ^https?:\/\/(www\.|s\.|m\.)?youtube\.com\/api\/stats\/ads - reject
+    - ^https?:\/\/(www\.|s\.|m\.)?youtube\.com\/(pagead|ptracking) - reject
+    - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
+  header-rewrite:
+    - ^https?:\/\/(www\.|s\.|m\.)?youtube\.com request-replace User-Agent Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.101 Mobile/15E148 Safari/604.1
+    - ^https?:\/\/[\w-]+\.googlevideo\.com request-replace User-Agent Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.101 Mobile/15E148 Safari/604.1
+    - ^https?:\/\/youtubei\.googleapis\.com request-replace User-Agent Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.101 Mobile/15E148 Safari/604.1
