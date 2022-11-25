@@ -1,4 +1,6 @@
 hostname = mangaapi.manhuaren.com
 
 # > Manhuaren
-^https?://mangaapi\.manhuaren\.com/v\d/ad/ url reject
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/ad\/ url reject
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds url reject
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getUpgradeInfo url reject

@@ -4,7 +4,6 @@ DOMAIN,wup.imtt.qq.com
 DOMAIN,vv.video.qq.com
 DOMAIN,sqdd.myapp.com
 DOMAIN,music-test.cymini.qq.com
-DOMAIN,sdkconfig.video.qq.com
 DOMAIN,wuji.video.qq.com
 DOMAIN,minigame.gtimg.cn
 DOMAIN,cmshow.gtimg.cn
@@ -36,6 +35,7 @@ DOMAIN-SUFFIX,i18n-pglstatp.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,pangle.io
 DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,sgsnssdk.com
 
 # Manhuaren
 DOMAIN,adlog.manhuaren.com

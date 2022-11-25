@@ -496,6 +496,7 @@ http:
     # > ManHuaRen
     - ^https?://mangaapi\.manhuaren\.com/v\d/public/getStartPageAds - reject
     - ^https?://mangaapi\.manhuaren\.com/v\d/ad/ - reject
+    - ^https?://mangaapi\.manhuaren\.com/v\d/public/getUpgradeInfo - reject
     # > Meituan-Dianping - flowplus.meituan.net
     #    - ^https?://img\.meituan\.net/(adunion|display|dpmobile|midas)/\w+\.(gif|jpg|jpg\.webp)$ - reject
     #    - ^https?://p\d\.meituan\.net/(bizad|wmbanner)/\w+\.jpg - reject
