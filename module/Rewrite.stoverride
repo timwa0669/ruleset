@@ -161,7 +161,7 @@ http:
     - "syh.zybang.com"
     - "api.izuiyou.com"
     - "tiku.zhan.com"
-  rewrite:
+  url-rewrite:
     # Redirect Google Service
     - ^https?://(www.)?(g|google)\.cn https://www.google.com 302
     - ^https?://(ditu|maps)\.google\.cn https://maps.google.com 302
