@@ -17,6 +17,12 @@ DOMAIN,sdkconfig.video.qq.com
 DOMAIN,bsrv.qq.com
 DOMAIN,expeva.store.qq.com
 DOMAIN,mazu.m.qq.com
+DOMAIN-SUFFIX,in-neo.cn
+DOMAIN,data.ab.qq.com
+DOMAIN,compliance.tdos.qq.com
+DOMAIN,snowflake.qq.com
+DOMAIN,configsvr.msf.3g.qq.com
+DOMAIN-SUFFIX,cdntips.net
 IP-CIDR,183.192.195.42/32,no-resolve
 IP-CIDR,221.181.97.254/32,no-resolve
 IP-CIDR,112.29.94.28/32,no-resolve
@@ -25,7 +31,7 @@ IP-CIDR,43.137.23.177/32,no-resolve
 IP-CIDR,36.155.213.182/32,no-resolve
 IP-CIDR,42.187.182.18/32,no-resolve
 IP-CIDR,101.226.211.106/32,no-resolve
-
+IP-CIDR,175.27.203.39/32,no-resolve
 # iqihang
 DOMAIN-SUFFIX,bjmantis.net
 
