@@ -4,3 +4,4 @@ hostname = mangaapi.manhuaren.com
 ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/ad\/ url reject
 ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds url reject
 ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getUpgradeInfo url reject
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getShelfActivity url reject
