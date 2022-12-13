@@ -32,8 +32,9 @@ IP-CIDR,36.155.213.182/32,no-resolve
 IP-CIDR,42.187.182.18/32,no-resolve
 IP-CIDR,101.226.211.106/32,no-resolve
 IP-CIDR,175.27.203.39/32,no-resolve
+
 # iqihang
-DOMAIN-SUFFIX,bjmantis.net
+DOMAIN-KEYWORD,chatn9.bjmantis.net
 
 # bytedance
 DOMAIN-SUFFIX,i18n-pglstatp.com
@@ -44,3 +45,17 @@ DOMAIN-SUFFIX,sgsnssdk.com
 
 # Manhuaren
 DOMAIN,adlog.manhuaren.com
+
+# webmota | baozimh
+DOMAIN-SUFFIX,adpushup.com
+DOMAIN-SUFFIX,servenobid.com
+DOMAIN,ads.aralego.com
+DOMAIN-SUFFIX,lijit.com
+DOMAIN,ad.360yield.com
+DOMAIN-SUFFIX,minutemedia-prebid.com
+DOMAIN-SUFFIX,disqus.com
+DOMAIN-SUFFIX,gumgum.com
+DOMAIN-SUFFIX,sonobi.com
+DOMAIN-SUFFIX,onetag-sys.com
+DOMAIN,btlr.sharethrough.com
+DOMAIN,prebid.media.net
