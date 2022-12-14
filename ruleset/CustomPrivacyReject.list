@@ -23,5 +23,4 @@ IP-CIDR,223.109.208.103/32,no-resolve
 IP-CIDR,43.137.29.205/32,no-resolve
 
 # Manhuaren
-DOMAIN-SUFFIX,bi-manhuaren.com
 DOMAIN-SUFFIX,applovefrom.com
