@@ -163,6 +163,7 @@ http:
     - "tiku.zhan.com"
     - "www.linovelib.com"
     - "w.linovelib.com"
+    - "www.digit77.com"
   url-rewrite:
     # Redirect Google Service
     - ^https?://(www.)?(g|google)\.cn https://www.google.com 302
@@ -712,7 +713,16 @@ http:
       require-body: true
       timeout: 5
       argument: ""
+    - match: ^https?:\/\/www.digit77.com\/.+\/.+
+      name: digit77
+      type: response
+      require-body: true
+      timeout: 5
+      argument: ""
 script-providers:
   linovelib:
     url: https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib.js
+    interval: 172800
+  digit77:
+    url: https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/digit77.js
     interval: 172800
