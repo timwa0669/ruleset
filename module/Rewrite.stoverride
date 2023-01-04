@@ -713,7 +713,7 @@ http:
       require-body: true
       timeout: 5
       argument: ""
-    - match: ^https?:\/\/www.digit77.com\/.+\/.+
+    - match: ^https?:\/\/www.digit77.com\/
       name: digit77
       type: response
       require-body: true
