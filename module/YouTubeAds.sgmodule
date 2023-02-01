@@ -1,0 +1,24 @@
+#!name=Block YouTube Advertising
+#!desc=仅用于视频广告 (Modified from https://github.com/DivineEngine/Profiles/blob/master/Surge/Module/Block/YouTubeAds.sgmodule)
+
+[Rule]
+AND,((PROTOCOL,UDP),(DEST-PORT,443),(DOMAIN-SUFFIX, googlevideo.com)),REJECT-NO-DROP
+AND,((PROTOCOL,UDP),(DEST-PORT,443),(DOMAIN-SUFFIX, youtube.com)),REJECT-NO-DROP
+AND,((PROTOCOL,UDP),(DEST-PORT,443),(DOMAIN, youtubei.googleapis.com)),REJECT-NO-DROP
+
+[URL Rewrite]
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
+
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
+^https?:\/\/(www\.|s\.|m\.)?youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www\.|s\.|m\.)?youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
+
+[Header Rewrite]
+^https?:\/\/(www\.|s\.|m\.)?youtube\.com header-replace User-Agent Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.101 Mobile/15E148 Safari/604.1
+^https?:\/\/[\w-]+\.googlevideo\.com header-replace User-Agent Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.101 Mobile/15E148 Safari/604.1
+^https?:\/\/youtubei\.googleapis\.com header-replace User-Agent Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/107.0.5304.101 Mobile/15E148 Safari/604.1
+
+[MITM]
+hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,youtube.com,m.youtube.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com

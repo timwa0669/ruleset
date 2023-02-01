@@ -1,0 +1,3 @@
+# Minecraft services limits api requests.
+DOMAIN,api.minecraftservices.com
+DOMAIN,authserver.mojang.com

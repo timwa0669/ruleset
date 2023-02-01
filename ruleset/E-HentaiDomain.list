@@ -1,0 +1,8 @@
+# e-hentai denys access from high frequency IPs.
+# Its regirstration is also restricted by IPs.
+# All data comes from https://github.com/EhPanda-Team/EhPanda/blob/main/EhPanda/Network/DomainResolver.swift
+
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,ehgt.org
+DOMAIN-SUFFIX,hath.network

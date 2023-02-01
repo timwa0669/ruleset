@@ -1,0 +1,7 @@
+# iqihang
+# High CPU usage due to banning
+DOMAIN,bjy-log.cn-beijing.log.aliyuncs.com
+
+# Other
+DOMAIN-KEYWORD,infineon
+DOMAIN-SUFFIX,umantis.com

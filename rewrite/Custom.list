@@ -1,0 +1,12 @@
+hostname = mangaapi.manhuaren.com, www.linovelib.com, w.linovelib.com, www.digit77.com
+
+# Manhuaren
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/ad\/ url reject
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds url reject
+^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getUpgradeInfo url reject
+
+# linovelib
+^https?:\/\/(www|w).linovelib.com\/novel\/\d+\/catalog url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib.js
+
+# digit77
+^https?:\/\/www.digit77.com\/ url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/digit77.js

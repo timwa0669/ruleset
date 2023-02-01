@@ -1,0 +1,72 @@
+# Tencent
+DOMAIN,ts.qq.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN,vv.video.qq.com
+DOMAIN,sqdd.myapp.com
+DOMAIN,music-test.cymini.qq.com
+DOMAIN,wuji.video.qq.com
+DOMAIN,minigame.gtimg.cn
+DOMAIN,cmshow.gtimg.cn
+DOMAIN,punch.p2p.qq.com
+DOMAIN,soup.v.qq.com
+DOMAIN,sdkconfig.video.qq.com
+DOMAIN,bsrv.qq.com
+DOMAIN,expeva.store.qq.com
+DOMAIN,mazu.m.qq.com
+DOMAIN-SUFFIX,in-neo.cn
+DOMAIN,data.ab.qq.com
+DOMAIN,compliance.tdos.qq.com
+DOMAIN,snowflake.qq.com
+DOMAIN,configsvr.msf.3g.qq.com
+DOMAIN-SUFFIX,cdntips.net
+DOMAIN,tianshu.gtimg.cn
+DOMAIN,circlevideo3.photo.qq.com
+
+# iqihang
+DOMAIN-KEYWORD,chatn9.bjmantis.net
+
+# bytedance
+DOMAIN-SUFFIX,i18n-pglstatp.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,pangle.io
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,sgsnssdk.com
+DOMAIN-SUFFIX,isnssdk.com
+
+# Manhuaren
+DOMAIN,adlog.manhuaren.com
+DOMAIN-SUFFIX,applovefrom.com
+
+# webmota | baozimh
+DOMAIN-SUFFIX,adpushup.com
+DOMAIN-SUFFIX,servenobid.com
+DOMAIN,ads.aralego.com
+DOMAIN-SUFFIX,lijit.com
+DOMAIN,ad.360yield.com
+DOMAIN-SUFFIX,minutemedia-prebid.com
+DOMAIN-SUFFIX,disqus.com
+DOMAIN-SUFFIX,gumgum.com
+DOMAIN-SUFFIX,sonobi.com
+DOMAIN-SUFFIX,onetag-sys.com
+DOMAIN,btlr.sharethrough.com
+DOMAIN,prebid.media.net
+DOMAIN-SUFFIX,rsc.cdn77.org
+
+# Google
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googlesyndication.com
+
+# Doubleclick
+DOMAIN-SUFFIX,doubleclick.net
+
+# Baidu
+DOMAIN,hm.baidu.com
+
+# Other
+DOMAIN,ulogs.umengcloud.com
+DOMAIN,errlog.umeng.com
+DOMAIN,graph.facebook.com
+DOMAIN-SUFFIX,suibyumimg.com
