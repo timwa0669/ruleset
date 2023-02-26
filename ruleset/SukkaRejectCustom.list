@@ -572,8 +572,6 @@ DOMAIN,t.yesware.com
 DOMAIN-SUFFIX,charlestownwyllie.oaklawnnonantum.com
 DOMAIN-SUFFIX,auwrtou.cn
 
-DOMAIN-SUFFIX,shockynews.com
-
 # >> Tracking
 DOMAIN,tracking.yorg.app
 DOMAIN-SUFFIX,taginstall.com
@@ -669,6 +667,8 @@ DOMAIN,tag.clearbitscripts.com
 DOMAIN,femetrics.grammarly.io
 DOMAIN,f-log-extension.grammarly.io
 DOMAIN,femetrics.qagr.io
+
+DOMAIN,cname.ebis.ne.jp
 
 # >> Alexa
 DOMAIN,data.alexa.com
