@@ -593,7 +593,6 @@ DOMAIN,script.hotjar.com
 DOMAIN,vars.hotjar.com
 DOMAIN-SUFFIX,onesignal.com
 DOMAIN,collector.xhamster.com
-DOMAIN,dc.services.visualstudio.com
 DOMAIN,firebaselogging-pa.googleapis.com
 DOMAIN,in.appcenter.ms
 DOMAIN,e2clock.gcp.gvt2.com
