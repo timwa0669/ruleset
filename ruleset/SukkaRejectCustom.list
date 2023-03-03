@@ -588,9 +588,6 @@ DOMAIN,inside.rtbasia.com
 DOMAIN-SUFFIX,atom-data.io
 DOMAIN-SUFFIX,analytics-data.io
 DOMAIN-SUFFIX,ironbeast.io
-DOMAIN,static.hotjar.com
-DOMAIN,script.hotjar.com
-DOMAIN,vars.hotjar.com
 DOMAIN-SUFFIX,onesignal.com
 DOMAIN,collector.xhamster.com
 DOMAIN,firebaselogging-pa.googleapis.com
