@@ -663,6 +663,13 @@ DOMAIN,femetrics.qagr.io
 
 DOMAIN,cname.ebis.ne.jp
 
+DOMAIN,cdn.usefathom.com
+DOMAIN,s.maketheweb.io
+DOMAIN,nmbr.info
+DOMAIN,s.osano.com
+DOMAIN,js.partnerstack.com
+DOMAIN,zymerget.party
+
 # >> Alexa
 DOMAIN,data.alexa.com
 DOMAIN,device-metrics-us.amazon.com
