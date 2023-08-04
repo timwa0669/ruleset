@@ -570,8 +570,11 @@ DOMAIN-SUFFIX,mobileadtrading.com
 DOMAIN,t.yesware.com
 DOMAIN-SUFFIX,charlestownwyllie.oaklawnnonantum.com
 DOMAIN-SUFFIX,auwrtou.cn
+DOMAIN-SUFFIX,eatcells.com
+DOMAIN,comments.gazo.space
 
 # >> Tracking
+DOMAIN,datum.jsdelivr.com
 DOMAIN,tracking.yorg.app
 DOMAIN-SUFFIX,taginstall.com
 DOMAIN-SUFFIX,tealiumiq.com
