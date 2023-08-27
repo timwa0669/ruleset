@@ -627,6 +627,12 @@ DOMAIN,analytics.infomaniak.com
 DOMAIN-SUFFIX,prtrackings.com
 DOMAIN,p.cloudcraft.co
 
+DOMAIN,upload.qiniup.com
+DOMAIN,upload-z1.qiniup.com
+DOMAIN,upload-z2.qiniup.com
+DOMAIN,upload-na0.qiniup.com
+DOMAIN,upload-as0.qiniup.com
+
 DOMAIN-SUFFIX,adjust.io
 DOMAIN-SUFFIX,airbrake.io
 DOMAIN-SUFFIX,apsalar.com
