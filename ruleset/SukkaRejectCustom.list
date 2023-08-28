@@ -668,9 +668,9 @@ DOMAIN,ads.tvb.com
 DOMAIN,ad.juksy.com
 DOMAIN,tag.clearbitscripts.com
 
-DOMAIN,femetrics.grammarly.io
-DOMAIN,f-log-extension.grammarly.io
-DOMAIN,femetrics.qagr.io
+DOMAIN-SUFFIX,femetrics.grammarly.io
+DOMAIN-SUFFIX,f-log-extension.grammarly.io
+DOMAIN-SUFFIX,femetrics.qagr.io
 
 DOMAIN,cname.ebis.ne.jp
 
