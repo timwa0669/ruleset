@@ -681,6 +681,7 @@ DOMAIN,s.osano.com
 DOMAIN,js.partnerstack.com
 DOMAIN,zymerget.party
 DOMAIN,t.iwara.tv
+DOMAIN,api-scout.vercel.app
 
 # >> Alexa
 DOMAIN,data.alexa.com
