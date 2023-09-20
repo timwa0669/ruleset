@@ -21,6 +21,16 @@ DOMAIN-SUFFIX,headcaptcha.live
 DOMAIN-SUFFIX,coinzilla.io
 # fake pirate bay
 DOMAIN-SUFFIX,thepiratebay3.com
+# malware / scam
+DOMAIN-SUFFIX,macv.com
+DOMAIN-SUFFIX,macw.com
+DOMAIN-SUFFIX,macz.com
+DOMAIN-SUFFIX,macjb.com
+DOMAIN-SUFFIX,macsc.com
+DOMAIN-SUFFIX,macxf.com
+DOMAIN-SUFFIX,mac89.com
+DOMAIN-SUFFIX,52112.com
+DOMAIN-SUFFIX,macdown.com
 
 # >> Qihoo 360
 DOMAIN,hot.m.shouji.360tpcdn.com
