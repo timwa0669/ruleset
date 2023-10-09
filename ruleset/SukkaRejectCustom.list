@@ -237,6 +237,7 @@ DOMAIN-SUFFIX,admarvel.com
 DOMAIN-SUFFIX,admaster.com.cn
 DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adsunflower.com
+DOMAIN-SUFFIX,adups.com
 DOMAIN-SUFFIX,advmob.cn
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,adsmoloco.com
@@ -310,6 +311,7 @@ DOMAIN-SUFFIX,gowadogo.com
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,i2000.xyz
 DOMAIN-SUFFIX,igexin.com
+DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,img.adnyg.com
 DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com
 DOMAIN-SUFFIX,imrworldwide.com
@@ -706,25 +708,27 @@ DOMAIN,device-metrics-us-2.amazon.com
 
 # >> Apple
 DOMAIN,metrics.apple.com
-DOMAIN,securemetrics.apple.com
-DOMAIN,supportmetrics.apple.com
 DOMAIN,metrics.icloud.com
 DOMAIN,metrics.mzstatic.com
+DOMAIN,securemetrics.apple.com
+DOMAIN,supportmetrics.apple.com
 DOMAIN,dzc-metrics.mzstatic.com
+DOMAIN,notes-analytics-events.apple.com
+DOMAIN,notes-analytics-events.news.apple-dns.net
+DOMAIN,weather-analytics-events.apple.com
+DOMAIN,weather-analytics-events.news.apple-dns.net
 DOMAIN,books-analytics-events.news.apple-dns.net
 DOMAIN,books-analytics-events.apple.com
 DOMAIN,stocks-analytics-events.apple.com
 DOMAIN,stocks-analytics-events.news.apple-dns.net
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,iad.apple.com
+DOMAIN-SUFFIX,iadmoo.apple.com
+DOMAIN-SUFFIX,iadcontent.apple.com
 DOMAIN,acfeedbackws.icloud.com
 DOMAIN,api-adservices.apple.com
 DOMAIN,feedbackws.icloud.com
-DOMAIN,notes-analytics-events.apple.com
-DOMAIN,notes-analytics-events.news.apple-dns.net
 DOMAIN,securemvt.apple.com
-DOMAIN,weather-analytics-events.apple.com
-DOMAIN,weather-analytics-events.news.apple-dns.net
 DOMAIN-SUFFIX,qwapi.com
 DOMAIN-SUFFIX,wwads.cn
 
@@ -797,6 +801,7 @@ DOMAIN-SUFFIX,data.hicloud.com
 DOMAIN,logservice.hicloud.com
 DOMAIN,logservice1.hicloud.com
 DOMAIN-SUFFIX,dt.dbankcloud.cn
+DOMAIN-SUFFIX,dt.dbankcloud.com
 DOMAIN-SUFFIX,dt.hicloud.com
 DOMAIN-SUFFIX,dt.dbankcloud.ru
 DOMAIN-SUFFIX,data.dbankcloud.cn
@@ -807,12 +812,41 @@ DOMAIN,grs.dbankcloud.com
 DOMAIN,grs.dbankcloud.eu
 DOMAIN,grs.hicloud.com
 DOMAIN,grs.platform.dbankcloud.ru
+DOMAIN,geo.hicloud.com
 
 DOMAIN,logservice-dra.platform.hicloud.com
 DOMAIN,logservice-dre.platform.dbankcloud.cn
 DOMAIN,logservice-dre.platform.hicloud.com
-DOMAIN,logservice.hicloud.com
-DOMAIN,logservice1.hicloud.com
+
+DOMAIN,adx-dra.op.dbankcloud.com
+DOMAIN,adx-dra.op.hicloud.com
+DOMAIN,adx-drcn.op.dbankcloud.cn
+DOMAIN,adx-dre.op.dbankcloud.com
+DOMAIN,adx-dre.op.hicloud.com
+DOMAIN,adx-drru.op.dbankcloud.com
+DOMAIN-SUFFIX,aiclean.us.cloud.360safe.com
+DOMAIN-SUFFIX,atlas-emui-drcn.hicloud.com
+DOMAIN-SUFFIX,au.ff.avast.com
+DOMAIN-SUFFIX,configserver-dra.platform.hicloud.com
+DOMAIN-SUFFIX,dnkeeper.dbankcloud.com
+DOMAIN-SUFFIX,dnkeeper.hicloud.com
+DOMAIN-SUFFIX,dnkeeper.platform.dbankcloud.cn
+DOMAIN-SUFFIX,events-dra.op.hicloud.com
+DOMAIN-SUFFIX,feedback-dre.platform.hicloud.com
+
+DOMAIN-SUFFIX,logbak.hicloud.com
+DOMAIN-SUFFIX,logservice-dra.platform.hicloud.com
+DOMAIN-SUFFIX,logservice-dre.platform.dbankcloud.cn
+DOMAIN-SUFFIX,logservice-dre.platform.hicloud.com
+DOMAIN-SUFFIX,logtransform.hicloud.com
+DOMAIN-SUFFIX,mvconf.cloud.360safe.com
+DOMAIN-SUFFIX,openlocation-drcn.platform.dbankcloud.com
+DOMAIN-SUFFIX,opsdata.hicloud.com
+DOMAIN-SUFFIX,osscach2023.hicloud.tw
+DOMAIN-SUFFIX,sdkserver-dra.op.hicloud.com
+DOMAIN-SUFFIX,servicesupport.hicloud.com
+DOMAIN-SUFFIX,streamback.ff.avast.com
+DOMAIN-SUFFIX,ubacollect-drcn.cloud.dbankcloud.cn
 
 # >> JD
 DOMAIN,jrad.jd.com
@@ -1418,8 +1452,13 @@ DOMAIN,static.app.m.letv.com
 DOMAIN,ad.intl.xiaomi.com
 DOMAIN-SUFFIX,ad.mi.com
 DOMAIN-SUFFIX,admob.xiaomi.com
-DOMAIN,ad1.xiaomi.com
+DOMAIN-SUFFIX,ad1.xiaomi.com
+
 DOMAIN-SUFFIX,mistat.xiaomi.com
+DOMAIN-SUFFIX,mistat.intl.xiaomi.com
+DOMAIN-SUFFIX,mistat.india.xiaomi.com
+DOMAIN-SUFFIX,mistat.rus.xiaomi.com
+
 DOMAIN,adv.sec.miui.com
 DOMAIN,adv.sec.intl.miui.com
 DOMAIN,misc.in.duokanbox.com
@@ -1433,13 +1472,12 @@ DOMAIN,api.miui.security.xiaomi.com
 DOMAIN-SUFFIX,auth.be.sec.miui.com
 DOMAIN-SUFFIX,adfuture.cn
 DOMAIN,sa.api.intl.miui.com
-DOMAIN-SUFFIX,mistat.intl.xiaomi.com
-DOMAIN-SUFFIX,mistat.india.xiaomi.com
-DOMAIN-SUFFIX,mistat.rus.xiaomi.com
+
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tracking.intl.miui.com
 DOMAIN-SUFFIX,tracking.india.miui.com
 DOMAIN-SUFFIX,tracking.rus.miui.com
+
 DOMAIN-SUFFIX,xlmc.sec.miui.com
 DOMAIN,wtradv.market.xiaomi.com
 DOMAIN,video.market.xiaomi.com
@@ -1464,6 +1502,7 @@ DOMAIN,metok.sys.miui.com
 DOMAIN,flash.sec.miui.com
 DOMAIN,mazu.sec.miui.com
 DOMAIN,api.sec.miui.com
+DOMAIN,info.sec.miui.com
 # 快应用
 DOMAIN,api.hybrid.xiaomi.com
 # 浏览器、浏览器热点
