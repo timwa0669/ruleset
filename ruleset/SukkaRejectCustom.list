@@ -519,6 +519,7 @@ DOMAIN-SUFFIX,yoyi.tv
 DOMAIN-SUFFIX,adimg.deviantart.net
 DOMAIN-SUFFIX,adcast.deviantart.com
 DOMAIN-SUFFIX,inside.bitcomet.com
+DOMAIN-SUFFIX,cdnads.com
 
 DOMAIN-SUFFIX,youxiaoad.com
 DOMAIN-SUFFIX,iteye.com
@@ -1821,7 +1822,10 @@ DOMAIN-SUFFIX,discovery.tom.com
 # brightdata (luminati) SDK
 DOMAIN-SUFFIX,lum-sdk.io
 DOMAIN-SUFFIX,luminatinet.com
-DOMAIN-SUFFIX,luminati-china.io
 DOMAIN-SUFFIX,luminati.io
+DOMAIN-SUFFIX,luminati-china.io
 DOMAIN-SUFFIX,lum-cn.io
 DOMAIN-SUFFIX,luminati-china.biz
+DOMAIN-SUFFIX,hola.org
+DOMAIN-SUFFIX,h-vpn.org
+DOMAIN-SUFFIX,holashop.org
