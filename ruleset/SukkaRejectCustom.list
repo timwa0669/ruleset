@@ -1230,6 +1230,7 @@ DOMAIN,p.tencentmind.com
 DOMAIN,report.qqweb.qq.com
 DOMAIN,btrace.qq.com
 DOMAIN,mtrace.qq.com
+DOMAIN-SUFFIX,trace.qq.com
 DOMAIN,pingtcss.qq.com
 DOMAIN,splashqqlive.gtimg.com
 DOMAIN,access-sngapm.qcloud.com
