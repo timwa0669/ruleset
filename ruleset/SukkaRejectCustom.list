@@ -520,6 +520,11 @@ DOMAIN-SUFFIX,adimg.deviantart.net
 DOMAIN-SUFFIX,adcast.deviantart.com
 DOMAIN-SUFFIX,inside.bitcomet.com
 DOMAIN-SUFFIX,cdnads.com
+DOMAIN-SUFFIX,stats.esomniture.com
+DOMAIN-SUFFIX,adalyser.com
+DOMAIN-SUFFIX,tradedoubler.com
+DOMAIN-SUFFIX,xiti.com
+DOMAIN-SUFFIX,cjt1.net
 
 DOMAIN-SUFFIX,youxiaoad.com
 DOMAIN-SUFFIX,iteye.com
@@ -1451,7 +1456,7 @@ DOMAIN,stat.letv.com
 DOMAIN,static.app.m.letv.com
 
 # >> Xiaomi (MIUI)
-DOMAIN,ad.intl.xiaomi.com
+DOMAIN-SUFFIX,ad.intl.xiaomi.com
 DOMAIN-SUFFIX,ad.mi.com
 DOMAIN-SUFFIX,admob.xiaomi.com
 DOMAIN-SUFFIX,ad1.xiaomi.com
@@ -1750,7 +1755,6 @@ DOMAIN,ntp.msn.cn
 DOMAIN,assets.msn.cn
 DOMAIN,api.msn.com
 DOMAIN,browser.events.data.msn.com
-DOMAIN,img-s-msn-com.akamaized.net
 
 # >> OPPO
 DOMAIN,adsfs.oppomobile.com
@@ -1821,6 +1825,7 @@ DOMAIN-SUFFIX,pub.tom.com
 DOMAIN-SUFFIX,discovery.tom.com
 
 # brightdata (luminati) SDK
+DOMAIN-SUFFIX,l-err.biz
 DOMAIN-SUFFIX,lum-sdk.io
 DOMAIN-SUFFIX,luminatinet.com
 DOMAIN-SUFFIX,luminati.io
@@ -1830,3 +1835,4 @@ DOMAIN-SUFFIX,luminati-china.biz
 DOMAIN-SUFFIX,hola.org
 DOMAIN-SUFFIX,h-vpn.org
 DOMAIN-SUFFIX,holashop.org
+DOMAIN-SUFFIX,svd-cdn.com
