@@ -1006,7 +1006,6 @@ DOMAIN,w.x.baidu.com
 DOMAIN-SUFFIX,adx.xiaodutv.com
 DOMAIN-SUFFIX,s.baidu.com
 DOMAIN,click.bes.baidu.com
-DOMAIN,click.hm.baidu.com
 DOMAIN,click.qianqian.com
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,mpro.baidu.com
@@ -1056,7 +1055,7 @@ DOMAIN-SUFFIX,union.baidu.com
 DOMAIN-SUFFIX,unionimage.baidu.com
 DOMAIN-SUFFIX,utk.baidu.com
 DOMAIN-SUFFIX,tongji.baidu.com
-DOMAIN-SUFFIX,toolbar.baidu.com
+DOMAIN-SUFFIX,toolbar.baidu.co
 DOMAIN-SUFFIX,tracker.baidu.com
 DOMAIN-SUFFIX,tuijian.baidu.com
 DOMAIN-SUFFIX,ubmcmm.baidustatic.com
@@ -1240,7 +1239,7 @@ DOMAIN,pingtcss.qq.com
 DOMAIN,splashqqlive.gtimg.com
 DOMAIN,access-sngapm.qcloud.com
 DOMAIN,beacon.gtimg.com
-DOMAIN-SUFFIX,l.qq.com
+# .l.qq.com # break fairplay.l.qq.com, livew.l.qq.com, vd.l.qq.com, vi.l.qq.com
 DOMAIN,ad.tencentmusic.com
 DOMAIN,adstats.tencentmusic.com
 DOMAIN,adcdn.tencentmusic.com
