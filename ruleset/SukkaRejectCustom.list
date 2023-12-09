@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,mac89.com
 DOMAIN-SUFFIX,52112.com
 DOMAIN-SUFFIX,macyy.cn
 DOMAIN-SUFFIX,macdown.com
+DOMAIN-SUFFIX,zupee.com
 
 # >> Qihoo 360
 DOMAIN,hot.m.shouji.360tpcdn.com
@@ -55,9 +56,21 @@ DOMAIN-SUFFIX,nimiq.agency
 DOMAIN-SUFFIX,nimiq.network
 DOMAIN-SUFFIX,nimiq-network.com
 DOMAIN-SUFFIX,nimiq.com
+DOMAIN-SUFFIX,nimiq.net
+DOMAIN-SUFFIX,nimiq.ag
+DOMAIN-SUFFIX,nimiq.agency
 DOMAIN-SUFFIX,hostcontent.live
 DOMAIN-SUFFIX,cfcdist.loan
 DOMAIN-SUFFIX,cfcnet.top
+DOMAIN-SUFFIX,datasecu.download
+DOMAIN-SUFFIX,jqwww.download
+DOMAIN-SUFFIX,tidafors.xyz
+DOMAIN-SUFFIX,csgocpu.com
+DOMAIN-SUFFIX,crypto-pool.fr
+DOMAIN-SUFFIX,crypto-loot.com
+DOMAIN-SUFFIX,ajplugins.com
+DOMAIN-SUFFIX,nullrefexcep.com
+DOMAIN-SUFFIX,0x1f4b0.com
 
 # >> Makeding
 DOMAIN-SUFFIX,4009997658.com
