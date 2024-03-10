@@ -6,3 +6,6 @@ DOMAIN,bjy-log.cn-beijing.log.aliyuncs.com
 DOMAIN-SUFFIX,infineon.com
 DOMAIN-SUFFIX,umantis.com
 DOMAIN-SUFFIX,amd.com
+
+# Good performance in mainland
+DOMAIN,petalinux.xilinx.com
