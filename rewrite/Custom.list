@@ -7,6 +7,7 @@ hostname = mangaapi.manhuaren.com, www.linovelib.com, w.linovelib.com, www.digit
 
 # linovelib
 ^https?:\/\/(www|w).linovelib.com\/novel\/\d+\/catalog url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib.js
+^https?:\/\/(www|w).bilinovel.com\/novel\/\d+\/catalog url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib.js
 
 # digit77
 ^https?:\/\/www.digit77.com\/ url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/digit77.js
