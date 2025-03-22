@@ -1,2 +1,2 @@
-let body = $response.body.replace(/<script((?!<\/script>).)*(window\.adblock=\!0|adsbygoogle|googlesyndication|googletagmanager|sojson|yuedu|tj|show-more-images|serviceWorker|tip_chapter)((?!<\/script>).)*<\/script>/gs, '');
+let body = $response.body.replace(/<script((?!<\/script>).)*(window\.adblock=\!0|adsbygoogle|googlesyndication|googletagmanager|sojson|yuedu|tj|show-more-images|serviceWorker|tip_chapter|style_tp|fsdoa|pctheme|style_bm|_hmt)((?!<\/script>).)*<\/script>/gs, '');
 $done({ body });
