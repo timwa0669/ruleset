@@ -3,10 +3,12 @@
 DOMAIN,bjy-log.cn-beijing.log.aliyuncs.com
 
 # Other
+DOMAIN-KEYWORD,infineon
 DOMAIN-SUFFIX,infineon.com
 DOMAIN-SUFFIX,umantis.com
 DOMAIN-SUFFIX,amd.com
 DOMAIN-SUFFIX,pingone.eu
+DOMAIN-SUFFIX,service-now.com
 
 # Good performance in mainland
 DOMAIN,petalinux.xilinx.com
