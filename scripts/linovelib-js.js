@@ -1,3 +1,4 @@
 //let body = $response.body.replace(/<script((?!<\/script>).)*(window\.adblock=\!0|adsbygoogle|googlesyndication|googletagmanager|sojson)((?!<\/script>).)*<\/script>/gs, '');
-let body = $response.body.replace(/.*(\(function\(_0x|eval\(function\(p,a,c,k,e,d\)).*/g, '');
+let body = $response.body.replace(/.*(eval\(function\(p,a,c,k,e,d\)).*/gs, '');
+body = body.replace(/\(\s*function\(\s*_0x[a-f0-9]{4,}\s*,\s*_0x[a-f0-9]{4,}\s*\)\s*\{(?=[\s\S]{0,2500}?while\s*\(\s*!!\[\]\s*\))(?=[\s\S]{0,4000}?\[['"]push['"]\]\(\s*_0x[a-f0-9]{4,}\s*\[['"]shift['"]\]\(\)\s*\))(?=[\s\S]{0,120000}?function\s+_0x[a-f0-9]{4,}\s*\(\)\s*\{[\s\S]{0,1500}?const\s+_0x[a-f0-9]{4,}\s*=\s*\[[\s\S]{300,}?\];[\s\S]{0,800}?_0x[a-f0-9]{4,}\s*=\s*function\(\)\s*\{\s*return\s+_0x[a-f0-9]{4,}\s*;\s*\};[\s\S]{0,300}?return\s+_0x[a-f0-9]{4,}\s*\(\)\s*;?\s*\})[\s\S]*?function\s+_0x[a-f0-9]{4,}\s*\(\)\s*\{[\s\S]{0,1500}?const\s+_0x[a-f0-9]{4,}\s*=\s*\[[\s\S]{300,}?\];[\s\S]{0,800}?_0x[a-f0-9]{4,}\s*=\s*function\(\)\s*\{\s*return\s+_0x[a-f0-9]{4,}\s*;\s*\};[\s\S]{0,300}?return\s+_0x[a-f0-9]{4,}\s*\(\)\s*;?\s*\}/gs, '');
 $done({ body });
