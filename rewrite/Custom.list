@@ -8,8 +8,8 @@ hostname = mangaapi.manhuaren.com, www.linovelib.com, w.linovelib.com, www.digit
 # linovelib
 ^https?:\/\/(www|w|tw)\.linovelib\.com\/novel\/\d+\/catalog url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib-catalog.js
 ^https?:\/\/(www|w|tw)\.bilinovel\.com\/novel\/\d+\/catalog url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib-catalog.js
-# ^https?:\/\/(www|w|tw)\.linovelib\.com\/novel\/\d+\/\d+ url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib-novel.js
-# ^https?:\/\/(www|w|tw)\.bilinovel\.com\/novel\/\d+\/\d+ url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib-novel.js
+^https?:\/\/(www|w|tw)\.linovelib\.com\/novel\/\d+\/\d+ url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib-novel.js
+^https?:\/\/(www|w|tw)\.bilinovel\.com\/novel\/\d+\/\d+ url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib-novel.js
 ^https?:\/\/(www|w|tw)\.linovelib\.com\/.*\.js.* url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib-js.js
 ^https?:\/\/(www|w|tw)\.bilinovel\.com\/.*\.js.* url script-response-body https://raw.githubusercontent.com/timwa0669/ruleset/master/scripts/linovelib-js.js
 
