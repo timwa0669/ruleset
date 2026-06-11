@@ -70,3 +70,12 @@ DOMAIN,ulogs.umengcloud.com
 DOMAIN,errlog.umeng.com
 DOMAIN,graph.facebook.com
 DOMAIN-SUFFIX,suibyumimg.com
+
+# Github
+# Data from https://github.com/v2fly/domain-list-community/blob/master/data/github
+DOMAIN,collector.github.com
+
+# Github Copilot
+# Data from https://github.com/v2fly/domain-list-community/blob/master/data/github-copilot
+DOMAIN,copilot-telemetry-service.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
