@@ -1,5 +1,5 @@
 //let body = $response.body.replace(/<script((?!(<\/script>)|(prevpage)|(nextpage)|(bookpage)|(ReadParams)).)*<\/script>/gs, '');
 //let body = $response.body.replace(/<script((?!<\/script>).)*(window\.adblock=\!0|adsbygoogle|googlesyndication|googletagmanager|sojson|yuedu|tj|show-more-images|serviceWorker|tip_chapter|readtools|zation|baidu|newread)((?!<\/script>).)*<\/script>/gs, '');
 //let body = $response.body.replace(/"[^"]*https?:\/\/[^"]*(adsbygoogle|googlesyndication|googletagmanager)[^"]*"/gs, '"/scripts/darkmode.js"');
-let body = $response.body.replace(/<script((?!<\/script>).)*(window\.adblock=\!0|adsbygoogle|googlesyndication|googletagmanager)((?!<\/script>).)*<\/script>/gs, '<script>BindFootLink();</script>');
+let body = $response.body.replace(/<script((?!<\/script>).)*(window\.adblock=\!0|adsbygoogle|googlesyndication|googletagmanager|lazysizes|zation|baidu)((?!<\/script>).)*<\/script>/gs, '<script>BindFootLink();</script>');
 $done({ body });
